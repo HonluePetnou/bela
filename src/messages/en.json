@@ -1,0 +1,353 @@
+{
+  "Nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "book": "Book Now",
+    "login": "Login",
+    "account": "My Account",
+    "logout": "Logout"
+  },
+  "Index": {
+    "title": "BELA MBII GARAGE — Auto Services in Limbe, Cameroon",
+    "description": "Maintenance, repair and electronic diagnostics in Limbe. Book your slot online 24/7.",
+    "hero": {
+      "tag": "N°1 Auto Garage in Limbe",
+      "title": "Your Vehicle Deserves",
+      "title_accent": "The Best",
+      "subtitle": "Maintenance, repair and electronic diagnostics for all vehicle types. Certified technicians, modern equipment, guaranteed workmanship.",
+      "cta_book": "Book a slot",
+      "cta_services": "Discover our services",
+      "open_hours": "Mon–Sat • 10:00 AM – 5:30 PM",
+      "phone": "(+237) 690 208 485"
+    },
+    "stats": {
+      "founded": "2014",
+      "founded_label": "Year established",
+      "brands": "20+",
+      "brands_label": "Brands serviced",
+      "services": "15",
+      "services_label": "Services offered",
+      "satisfaction": "99%",
+      "satisfaction_label": "Customer satisfaction"
+    },
+    "services_section": {
+      "tag": "What we do",
+      "title": "Featured Services",
+      "subtitle": "Complete services to take care of your vehicle, from routine maintenance to complex repairs.",
+      "see_all": "View all services →"
+    },
+    "why_us": {
+      "tag": "Why choose us?",
+      "title": "Excellence at Your Vehicle's Service",
+      "subtitle": "Three reasons to trust us with your vehicle's maintenance and repair.",
+      "items": [
+        {
+          "icon": "🔧",
+          "title": "Experienced Technicians",
+          "desc": "Our team consists of qualified mechanics with years of experience on all makes and models."
+        },
+        {
+          "icon": "💻",
+          "title": "Modern Diagnostic Equipment",
+          "desc": "We use the latest OBD tools to identify faults precisely and quickly."
+        },
+        {
+          "icon": "✅",
+          "title": "Guaranteed Workmanship",
+          "desc": "All our work comes with a guarantee. Your satisfaction and safety are our priority."
+        }
+      ]
+    },
+    "testimonials": {
+      "tag": "Testimonials",
+      "title": "What our clients say",
+      "subtitle": "Our clients' satisfaction is our greatest reward."
+    },
+    "cta_band": {
+      "title": "Ready to trust your vehicle to experts?",
+      "subtitle": "Book your slot online in less than 5 minutes. Available 24/7.",
+      "button": "Book now",
+      "hours": "Mon – Sat: 10:00 AM – 5:30 PM"
+    },
+    "gallery_section": {
+      "tag": "Our Workshop",
+      "title": "Photo Gallery",
+      "subtitle": "Discover our workshop, equipment and team in action."
+    }
+  },
+  "Services": {
+    "title": "Our Services — BELA MBII GARAGE",
+    "tag": "Everything for your vehicle",
+    "hero_title": "Our Auto Services",
+    "hero_subtitle": "From routine maintenance to complex repairs, we handle all aspects of your vehicle.",
+    "categories": {
+      "maintenance": "Maintenance & Service",
+      "repair": "Mechanical & Electronic Repair",
+      "body": "Bodywork & Panel Beating",
+      "specialized": "Specialized Services",
+      "emergency": "Breakdown & Towing"
+    },
+    "duration": "Duration",
+    "slot": "slot",
+    "slots": "slots",
+    "hours": "hours",
+    "on_quote": "On quote",
+    "on_call": "On call",
+    "book_service": "Book this service",
+    "services_list": {
+      "vidange": {
+        "name": "Oil & Filter Change",
+        "desc": "Engine oil change, oil, air, and fuel filter replacement. Essential for engine longevity.",
+        "duration": "1 slot (2h)"
+      },
+      "revision": {
+        "name": "Full Service",
+        "desc": "General inspection, replacement of consumables per manufacturer schedule. Your vehicle like new.",
+        "duration": "2 slots (4h)"
+      },
+      "freinage": {
+        "name": "Brake System",
+        "desc": "Pad, disc, drum, and brake fluid replacement. Optimal safety guaranteed.",
+        "duration": "1 slot (2h)"
+      },
+      "amortisseurs": {
+        "name": "Shock Absorbers & Suspension",
+        "desc": "Suspension diagnosis, shock absorber and bush replacement. Improved comfort and handling.",
+        "duration": "1 slot (2h)"
+      },
+      "moteur": {
+        "name": "Engine Repair",
+        "desc": "Cylinder head, timing, gaskets, engine overhaul. Our specialist mechanics handle all engine types.",
+        "duration": "2 slots (4h)"
+      },
+      "diagnostic": {
+        "name": "Electronic Diagnostics",
+        "desc": "Fault code reading and clearing, OBD ECU expertise. Precise identification of any electronic fault.",
+        "duration": "1 slot (2h)"
+      },
+      "electricite": {
+        "name": "Auto Electrics",
+        "desc": "Wiring, alternator, starter motor, electrical systems. Complete solutions for all electrical problems.",
+        "duration": "1 slot (2h)"
+      },
+      "carrosserie": {
+        "name": "Collision Repair",
+        "desc": "Panel straightening, welding, body panel replacement. Your vehicle restored to its original appearance.",
+        "duration": "2 slots (4h)"
+      },
+      "peinture": {
+        "name": "Paint",
+        "desc": "Touch-up, partial or full paint. Professional finish for impeccable results.",
+        "duration": "On quote"
+      },
+      "debosselage": {
+        "name": "Dent Removal",
+        "desc": "Paintless dent repair (PDR), impact repair. Advanced technique to remove dents without repainting.",
+        "duration": "1 slot (2h)"
+      },
+      "pneus": {
+        "name": "Tyres",
+        "desc": "Fitting, balancing, rotation, puncture repair. Complete tyre service.",
+        "duration": "1 slot (2h)"
+      },
+      "parebrise": {
+        "name": "Windscreen Replacement",
+        "desc": "Windscreen and side window removal and fitting. Fast and secure service.",
+        "duration": "1 slot (2h)"
+      },
+      "clim": {
+        "name": "Air Conditioning",
+        "desc": "Recharge, diagnostics, compressor replacement. Restore thermal comfort to your vehicle.",
+        "duration": "1 slot (2h)"
+      },
+      "reprogrammation": {
+        "name": "Reprogramming",
+        "desc": "ECU reprogramming, software update. Optimize your vehicle's performance.",
+        "duration": "1 slot (2h)"
+      },
+      "depannage": {
+        "name": "Rapid Breakdown",
+        "desc": "Mobile intervention, on-site diagnosis. We come to you when you break down.",
+        "duration": "On call"
+      },
+      "remorquage": {
+        "name": "Towing",
+        "desc": "Collection and transport to the garage. Available for all vehicle types.",
+        "duration": "On call"
+      }
+    }
+  },
+  "About": {
+    "title": "About Us — BELA MBII GARAGE",
+    "tag": "Our story",
+    "hero_title": "About Bela Mbii Garage",
+    "hero_subtitle": "Over a decade of automotive expertise serving the people of Limbe and South-West Cameroon.",
+    "story_title": "Our Story",
+    "story_text": "Founded in 2014 in Limbe, South-West Cameroon, BELA MBII LTD has established itself as the local reference for automotive services. Our garage was born from our founder's passion for mechanics and a clear vision: to offer Cameroonian drivers a vehicle maintenance and repair service that meets international standards.",
+    "story_text2": "Over the years, we have invested in modern diagnostic equipment, trained our technicians in the latest automotive technologies, and developed a company culture centred on transparency, quality and customer satisfaction. Today, we are proud to serve hundreds of regular clients and to be recommended by the local community.",
+    "values_title": "Our Values",
+    "values": [
+      {
+        "icon": "🎯",
+        "title": "Excellence",
+        "desc": "We aim for excellence in every job, with no compromise on quality."
+      },
+      {
+        "icon": "🤝",
+        "title": "Transparency",
+        "desc": "Our quotes are clear and detailed. No work without your prior agreement."
+      },
+      {
+        "icon": "🛡️",
+        "title": "Integrity",
+        "desc": "We act with honesty and ethics in all our client relationships."
+      },
+      {
+        "icon": "⚡",
+        "title": "Responsiveness",
+        "desc": "We respect deadlines and keep you informed at every stage of the job."
+      }
+    ],
+    "info_title": "Legal Information",
+    "address": "Busumbii Entrance Mile 3, Limbe, Cameroon",
+    "phone": "(+237) 690 208 485",
+    "registration": "TPPRR/RC/LBE/2024/B/007",
+    "niu": "M012416350442Z"
+  },
+  "Contact": {
+    "title": "Contact — BELA MBII GARAGE",
+    "tag": "Get in touch",
+    "hero_title": "Contact Us",
+    "hero_subtitle": "Our team is available to answer all your questions. Feel free to call us or fill in the form.",
+    "form_title": "Send us a message",
+    "name": "Full name",
+    "email": "Email address",
+    "phone": "Phone",
+    "subject": "Subject",
+    "message": "Your message",
+    "send": "Send message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "An error occurred. Please try again.",
+    "info_title": "Our Contact Details",
+    "address_label": "Address",
+    "address": "Busumbii Entrance Mile 3, Limbe, Cameroon",
+    "hours_label": "Opening Hours",
+    "hours": "Monday – Saturday: 10:00 AM – 5:30 PM",
+    "closed": "Sunday: Closed",
+    "phone_label": "Phone",
+    "email_label": "Email",
+    "emergency": "Emergency Breakdown",
+    "emergency_text": "For any emergency call-out, contact us directly."
+  },
+  "Gallery": {
+    "title": "Gallery — BELA MBII GARAGE",
+    "tag": "Our workshop in pictures",
+    "hero_title": "Photo Gallery",
+    "hero_subtitle": "Discover our workshop, equipment and achievements in pictures."
+  },
+  "Booking": {
+    "title": "Book a Slot — BELA MBII GARAGE",
+    "hero_title": "Book a Slot",
+    "hero_subtitle": "Fill in the 5-step form to book your appointment.",
+    "steps": {
+      "1": "Your vehicle",
+      "2": "Service needed",
+      "3": "Choose a slot",
+      "4": "Your account",
+      "5": "Summary"
+    },
+    "next": "Next",
+    "back": "Back",
+    "confirm": "Confirm booking",
+    "step1": {
+      "title": "Your Vehicle",
+      "brand": "Make",
+      "model": "Model",
+      "year": "Year",
+      "plate": "Registration",
+      "fuel": "Fuel type",
+      "fuels": {
+        "essence": "Petrol",
+        "diesel": "Diesel",
+        "hybride": "Hybrid",
+        "electrique": "Electric"
+      }
+    },
+    "step2": {
+      "title": "Service Needed",
+      "select": "Select a service",
+      "notes": "Problem description (optional)",
+      "notes_placeholder": "Describe your problem or what you want done..."
+    },
+    "step3": {
+      "title": "Choose a Slot",
+      "select_date": "Select a date",
+      "select_slot": "Select a time slot",
+      "available": "Available",
+      "taken": "Taken"
+    },
+    "step4": {
+      "title": "Your Account",
+      "login": "Sign in",
+      "register": "Create account",
+      "firstname": "First name",
+      "lastname": "Last name",
+      "email": "Email",
+      "phone": "Phone",
+      "password": "Password"
+    },
+    "step5": {
+      "title": "Summary",
+      "vehicle": "Vehicle",
+      "service": "Service",
+      "slot": "Slot",
+      "client": "Client",
+      "cgu": "I accept the terms and conditions",
+      "reference": "Booking reference"
+    },
+    "success": {
+      "title": "Booking Confirmed!",
+      "text": "Your booking has been successfully registered. You will receive a confirmation email shortly.",
+      "back_home": "Back to home"
+    }
+  },
+  "Login": {
+    "title": "Login — BELA MBII GARAGE",
+    "hero_title": "Login",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Sign in",
+    "no_account": "No account yet?",
+    "register": "Create account",
+    "forgot": "Forgot password?"
+  },
+  "Register": {
+    "title": "Create Account — BELA MBII GARAGE",
+    "hero_title": "Create Account",
+    "firstname": "First Name",
+    "lastname": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "password": "Password",
+    "password_placeholder": "8 characters minimum",
+    "submit": "Sign up",
+    "loading": "Loading...",
+    "has_account": "Already have an account?",
+    "login": "Sign in"
+  },
+  "Footer": {
+    "description": "BELA MBII LTD is your trusted partner in Limbe for vehicle maintenance, repair and diagnostics.",
+    "quick_links": "Quick Links",
+    "services": "Our Services",
+    "contact": "Contact Us",
+    "hours": "Opening Hours",
+    "hours_value": "Mon–Sat: 10:00 AM – 5:30 PM",
+    "copyright": "© 2026 BELA MBII LTD. All rights reserved.",
+    "made_by": "Built by SALAM SARL",
+    "legal": "Legal notice"
+  }
+}

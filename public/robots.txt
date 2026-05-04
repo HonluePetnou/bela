@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /mon-compte
+
+Sitemap: https://belambiigarage.com/sitemap.xml

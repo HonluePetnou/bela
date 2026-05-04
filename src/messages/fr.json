@@ -1,0 +1,353 @@
+{
+  "Nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À Propos",
+    "gallery": "Galerie",
+    "contact": "Contact",
+    "book": "Prendre Rendez-vous",
+    "login": "Connexion",
+    "account": "Mon Compte",
+    "logout": "Déconnexion"
+  },
+  "Index": {
+    "title": "BELA MBII GARAGE — Expertise Automobile à Limbe, Cameroun",
+    "description": "Maintenance, réparation et diagnostic électronique à Limbe. Réservez votre créneau en ligne 24h/24.",
+    "hero": {
+      "tag": "Garage Automobile N°1 à Limbe",
+      "title": "Votre Véhicule Mérite",
+      "title_accent": "le Meilleur",
+      "subtitle": "Maintenance, réparation et diagnostic électronique pour tous types de véhicules. Techniciens certifiés, équipements modernes, garantie des travaux.",
+      "cta_book": "Réserver un créneau",
+      "cta_services": "Découvrir nos services",
+      "open_hours": "Lun–Sam • 10h00 – 17h30",
+      "phone": "(+237) 690 208 485"
+    },
+    "stats": {
+      "founded": "2014",
+      "founded_label": "Année d'ouverture",
+      "brands": "20+",
+      "brands_label": "Marques prises en charge",
+      "services": "15",
+      "services_label": "Services proposés",
+      "satisfaction": "99%",
+      "satisfaction_label": "Satisfaction client"
+    },
+    "services_section": {
+      "tag": "Ce que nous faisons",
+      "title": "Nos Services en Vedette",
+      "subtitle": "Des prestations complètes pour prendre soin de votre véhicule, de l'entretien courant aux réparations complexes.",
+      "see_all": "Voir tous nos services →"
+    },
+    "why_us": {
+      "tag": "Pourquoi nous ?",
+      "title": "L'Excellence au Service de votre Véhicule",
+      "subtitle": "Trois raisons de nous faire confiance pour l'entretien et la réparation de votre véhicule.",
+      "items": [
+        {
+          "icon": "🔧",
+          "title": "Techniciens Expérimentés",
+          "desc": "Notre équipe est composée de mécaniciens qualifiés avec des années d'expérience sur toutes les marques."
+        },
+        {
+          "icon": "💻",
+          "title": "Équipement de Diagnostic Moderne",
+          "desc": "Nous utilisons les derniers outils OBD pour identifier les pannes avec précision et rapidité."
+        },
+        {
+          "icon": "✅",
+          "title": "Garantie des Travaux",
+          "desc": "Toutes nos interventions sont garanties. Votre satisfaction et votre sécurité sont notre priorité."
+        }
+      ]
+    },
+    "testimonials": {
+      "tag": "Témoignages",
+      "title": "Ce que disent nos clients",
+      "subtitle": "La satisfaction de nos clients est notre meilleure récompense."
+    },
+    "cta_band": {
+      "title": "Prêt à confier votre véhicule à des experts ?",
+      "subtitle": "Réservez votre créneau en ligne en moins de 5 minutes. Disponible 24h/24, 7j/7.",
+      "button": "Réserver maintenant",
+      "hours": "Lun – Sam : 10h00 – 17h30"
+    },
+    "gallery_section": {
+      "tag": "Notre Atelier",
+      "title": "Galerie Photos",
+      "subtitle": "Découvrez notre atelier, nos équipements et notre équipe en action."
+    }
+  },
+  "Services": {
+    "title": "Nos Services — BELA MBII GARAGE",
+    "tag": "Tout pour votre véhicule",
+    "hero_title": "Nos Services Automobiles",
+    "hero_subtitle": "De l'entretien courant aux réparations complexes, nous prenons en charge tous les aspects de votre véhicule.",
+    "categories": {
+      "maintenance": "Maintenance & Entretien",
+      "repair": "Réparation Mécanique & Électronique",
+      "body": "Carrosserie & Tôlerie",
+      "specialized": "Services Spécialisés",
+      "emergency": "Dépannage & Remorquage"
+    },
+    "duration": "Durée",
+    "slot": "créneau",
+    "slots": "créneaux",
+    "hours": "heures",
+    "on_quote": "Sur devis",
+    "on_call": "Sur appel",
+    "book_service": "Réserver ce service",
+    "services_list": {
+      "vidange": {
+        "name": "Vidange & Filtres",
+        "desc": "Vidange huile moteur, remplacement filtre à huile, à air, à carburant. Essentiel pour la longévité de votre moteur.",
+        "duration": "1 créneau (2h)"
+      },
+      "revision": {
+        "name": "Révision Complète",
+        "desc": "Contrôle général, remplacement des consommables selon le barème constructeur. Votre véhicule comme neuf.",
+        "duration": "2 créneaux (4h)"
+      },
+      "freinage": {
+        "name": "Système de Freinage",
+        "desc": "Remplacement plaquettes, disques, tambours, liquide de frein. Sécurité optimale garantie.",
+        "duration": "1 créneau (2h)"
+      },
+      "amortisseurs": {
+        "name": "Amortisseurs & Suspension",
+        "desc": "Diagnostic suspension, remplacement amortisseurs et silent-blocs. Confort et tenue de route améliorés.",
+        "duration": "1 créneau (2h)"
+      },
+      "moteur": {
+        "name": "Réparation Moteur",
+        "desc": "Culasse, distribution, joints, révision moteur. Nos mécaniciens spécialisés interviennent sur tous types de moteurs.",
+        "duration": "2 créneaux (4h)"
+      },
+      "diagnostic": {
+        "name": "Diagnostic Électronique",
+        "desc": "Lecture et effacement codes défauts, expertise calculateurs OBD. Identification précise de toute panne électronique.",
+        "duration": "1 créneau (2h)"
+      },
+      "electricite": {
+        "name": "Électricité Auto",
+        "desc": "Câblage, alternateur, démarreur, systèmes électriques. Solutions complètes pour tous vos problèmes électriques.",
+        "duration": "1 créneau (2h)"
+      },
+      "carrosserie": {
+        "name": "Réparation Collision",
+        "desc": "Redressage, soudure, remplacement éléments de carrosserie. Votre véhicule retrouve son aspect d'origine.",
+        "duration": "2 créneaux (4h)"
+      },
+      "peinture": {
+        "name": "Peinture",
+        "desc": "Retouche, peinture partielle ou complète. Une finition professionnelle pour un résultat impeccable.",
+        "duration": "Sur devis"
+      },
+      "debosselage": {
+        "name": "Débosselage",
+        "desc": "Débosselage sans peinture (PDR), réparation impacts. Technique de pointe pour effacer les chocs sans refaire la peinture.",
+        "duration": "1 créneau (2h)"
+      },
+      "pneus": {
+        "name": "Pneumatiques",
+        "desc": "Montage, équilibrage, permutation, réparation crevaison. Service complet pour vos pneus.",
+        "duration": "1 créneau (2h)"
+      },
+      "parebrise": {
+        "name": "Remplacement Pare-brise",
+        "desc": "Dépose/pose pare-brise, vitrages latéraux. Intervention rapide et sécurisée.",
+        "duration": "1 créneau (2h)"
+      },
+      "clim": {
+        "name": "Climatisation",
+        "desc": "Recharge, diagnostic, remplacement compresseur. Retrouvez le confort thermique dans votre véhicule.",
+        "duration": "1 créneau (2h)"
+      },
+      "reprogrammation": {
+        "name": "Reprogrammation",
+        "desc": "Reprogrammation calculateurs, mise à jour logiciel. Optimisez les performances de votre véhicule.",
+        "duration": "1 créneau (2h)"
+      },
+      "depannage": {
+        "name": "Dépannage Rapide",
+        "desc": "Intervention mobile, diagnostic sur site. Nous venons à vous en cas de panne.",
+        "duration": "Sur appel"
+      },
+      "remorquage": {
+        "name": "Remorquage",
+        "desc": "Prise en charge et acheminement au garage. Service disponible pour tous types de véhicules.",
+        "duration": "Sur appel"
+      }
+    }
+  },
+  "About": {
+    "title": "À Propos — BELA MBII GARAGE",
+    "tag": "Notre histoire",
+    "hero_title": "À Propos de Bela Mbii Garage",
+    "hero_subtitle": "Plus d'une décennie d'expertise automobile au service des habitants de Limbe et du Sud-Ouest Cameroun.",
+    "story_title": "Notre Histoire",
+    "story_text": "Fondée en 2014 à Limbe, dans la région du Sud-Ouest du Cameroun, BELA MBII LTD s'est imposée comme la référence locale en matière de services automobiles. Notre garage est né de la passion de notre fondateur pour la mécanique et d'une vision claire : offrir aux conducteurs camerounais un service d'entretien et de réparation automobile digne des standards internationaux.",
+    "story_text2": "Au fil des années, nous avons investi dans des équipements de diagnostic modernes, formé nos techniciens aux dernières technologies automobiles, et développé une culture d'entreprise axée sur la transparence, la qualité et la satisfaction client. Aujourd'hui, nous sommes fiers de servir des centaines de clients réguliers et d'être recommandés par la communauté locale.",
+    "values_title": "Nos Valeurs",
+    "values": [
+      {
+        "icon": "🎯",
+        "title": "Excellence",
+        "desc": "Nous visons l'excellence dans chaque intervention, sans compromis sur la qualité."
+      },
+      {
+        "icon": "🤝",
+        "title": "Transparence",
+        "desc": "Nos devis sont clairs et détaillés. Aucune intervention sans votre accord préalable."
+      },
+      {
+        "icon": "🛡️",
+        "title": "Intégrité",
+        "desc": "Nous agissons avec honnêteté et éthique dans toutes nos relations clients."
+      },
+      {
+        "icon": "⚡",
+        "title": "Réactivité",
+        "desc": "Nous respectons les délais et vous tenons informé à chaque étape de l'intervention."
+      }
+    ],
+    "info_title": "Informations Légales",
+    "address": "Busumbii Entrance Mile 3, Limbe, Cameroun",
+    "phone": "(+237) 690 208 485",
+    "registration": "TPPRR/RC/LBE/2024/B/007",
+    "niu": "M012416350442Z"
+  },
+  "Contact": {
+    "title": "Contact — BELA MBII GARAGE",
+    "tag": "Prenez contact",
+    "hero_title": "Contactez-nous",
+    "hero_subtitle": "Notre équipe est disponible pour répondre à toutes vos questions. N'hésitez pas à nous appeler ou à remplir le formulaire.",
+    "form_title": "Envoyez-nous un message",
+    "name": "Nom complet",
+    "email": "Adresse email",
+    "phone": "Téléphone",
+    "subject": "Sujet",
+    "message": "Votre message",
+    "send": "Envoyer le message",
+    "sending": "Envoi en cours...",
+    "success": "Message envoyé avec succès !",
+    "error": "Une erreur est survenue. Veuillez réessayer.",
+    "info_title": "Nos Coordonnées",
+    "address_label": "Adresse",
+    "address": "Busumbii Entrance Mile 3, Limbe, Cameroun",
+    "hours_label": "Horaires",
+    "hours": "Lundi – Samedi : 10h00 – 17h30",
+    "closed": "Dimanche : Fermé",
+    "phone_label": "Téléphone",
+    "email_label": "Email",
+    "emergency": "Dépannage d'urgence",
+    "emergency_text": "Pour toute intervention d'urgence, appelez-nous directement."
+  },
+  "Gallery": {
+    "title": "Galerie — BELA MBII GARAGE",
+    "tag": "Notre atelier en images",
+    "hero_title": "Galerie Photos",
+    "hero_subtitle": "Découvrez notre atelier, nos équipements et nos réalisations en images."
+  },
+  "Booking": {
+    "title": "Réserver un Créneau — BELA MBII GARAGE",
+    "hero_title": "Réserver un Créneau",
+    "hero_subtitle": "Remplissez le formulaire en 5 étapes pour réserver votre intervention.",
+    "steps": {
+      "1": "Votre véhicule",
+      "2": "Service souhaité",
+      "3": "Choisir un créneau",
+      "4": "Votre compte",
+      "5": "Récapitulatif"
+    },
+    "next": "Suivant",
+    "back": "Retour",
+    "confirm": "Confirmer la réservation",
+    "step1": {
+      "title": "Votre Véhicule",
+      "brand": "Marque",
+      "model": "Modèle",
+      "year": "Année",
+      "plate": "Immatriculation",
+      "fuel": "Carburant",
+      "fuels": {
+        "essence": "Essence",
+        "diesel": "Diesel",
+        "hybride": "Hybride",
+        "electrique": "Électrique"
+      }
+    },
+    "step2": {
+      "title": "Service Souhaité",
+      "select": "Sélectionnez un service",
+      "notes": "Description du problème (optionnel)",
+      "notes_placeholder": "Décrivez votre problème ou ce que vous souhaitez faire..."
+    },
+    "step3": {
+      "title": "Choisir un Créneau",
+      "select_date": "Sélectionnez une date",
+      "select_slot": "Sélectionnez un créneau",
+      "available": "Disponible",
+      "taken": "Pris"
+    },
+    "step4": {
+      "title": "Votre Compte",
+      "login": "Se connecter",
+      "register": "Créer un compte",
+      "firstname": "Prénom",
+      "lastname": "Nom",
+      "email": "Email",
+      "phone": "Téléphone",
+      "password": "Mot de passe"
+    },
+    "step5": {
+      "title": "Récapitulatif",
+      "vehicle": "Véhicule",
+      "service": "Service",
+      "slot": "Créneau",
+      "client": "Client",
+      "cgu": "J'accepte les conditions générales d'utilisation",
+      "reference": "Référence de réservation"
+    },
+    "success": {
+      "title": "Réservation Confirmée !",
+      "text": "Votre réservation a été enregistrée avec succès. Vous recevrez un email de confirmation dans quelques instants.",
+      "back_home": "Retour à l'accueil"
+    }
+  },
+  "Login": {
+    "title": "Connexion — BELA MBII GARAGE",
+    "hero_title": "Connexion",
+    "email": "Email",
+    "password": "Mot de passe",
+    "submit": "Se connecter",
+    "no_account": "Pas encore de compte ?",
+    "register": "Créer un compte",
+    "forgot": "Mot de passe oublié ?"
+  },
+  "Register": {
+    "title": "Créer un compte — BELA MBII GARAGE",
+    "hero_title": "Créer un compte",
+    "firstname": "Prénom",
+    "lastname": "Nom",
+    "email": "Email",
+    "phone": "Téléphone",
+    "password": "Mot de passe",
+    "password_placeholder": "8 caractères minimum",
+    "submit": "S'inscrire",
+    "loading": "Chargement...",
+    "has_account": "Déjà un compte ?",
+    "login": "Se connecter"
+  },
+  "Footer": {
+    "description": "BELA MBII LTD est votre partenaire de confiance à Limbe pour l'entretien, la réparation et le diagnostic de votre véhicule.",
+    "quick_links": "Liens Rapides",
+    "services": "Nos Services",
+    "contact": "Contactez-nous",
+    "hours": "Horaires",
+    "hours_value": "Lun–Sam : 10h00–17h30",
+    "copyright": "© 2026 BELA MBII LTD. Tous droits réservés.",
+    "made_by": "Réalisé par SALAM SARL",
+    "legal": "Mentions légales"
+  }
+}

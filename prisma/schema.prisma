@@ -1,0 +1,99 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String    @id @default(cuid())
+  email         String    @unique
+  passwordHash  String
+  firstName     String
+  lastName      String
+  phone         String?
+  emailVerified DateTime?
+  role          String    @default("USER")
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  bookings      Booking[]
+  vehicles      Vehicle[]
+  notifications Notification[]
+}
+
+model Vehicle {
+  id           String    @id @default(cuid())
+  userId       String
+  user         User      @relation(fields: [userId], references: [id])
+  brand        String
+  model        String
+  year         Int
+  licensePlate String
+  fuelType     String
+  bookings     Booking[]
+}
+
+model Service {
+  id           String    @id @default(cuid())
+  nameFr       String
+  nameEn       String
+  descFr       String
+  descEn       String
+  slotDuration Int       @default(120)
+  isActive     Boolean   @default(true)
+  bookings     Booking[]
+}
+
+model TimeSlot {
+  id          String    @id @default(cuid())
+  date        DateTime
+  startTime   String    
+  endTime     String    
+  isBlocked   Boolean   @default(false)
+  isBooked    Boolean   @default(false)
+  booking     Booking?
+}
+
+model Booking {
+  id          String        @id @default(cuid())
+  userId      String
+  user        User          @relation(fields: [userId], references: [id])
+  vehicleId   String
+  vehicle     Vehicle       @relation(fields: [vehicleId], references: [id])
+  serviceId   String
+  service     Service       @relation(fields: [serviceId], references: [id])
+  timeSlotId  String        @unique
+  timeSlot    TimeSlot      @relation(fields: [timeSlotId], references: [id])
+  status      String        @default("CONFIRMED")
+  reference   String        @unique
+  notes       String?
+  createdAt   DateTime      @default(now())
+}
+
+model Notification {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  type      String
+  title     String
+  body      String
+  isRead    Boolean  @default(false)
+  createdAt DateTime @default(now())
+}
+
+model GarageConfig {
+  id              String @id @default("singleton")
+  openTime        String @default("10:00")
+  closeTime       String @default("17:30")
+  slotDuration    Int    @default(120)
+  minAdvanceHours Int    @default(4)
+  maxAdvanceDays  Int    @default(30)
+}
+
+model ClosedDay {
+  id     String   @id @default(cuid())
+  date   DateTime
+  reason String?
+}
