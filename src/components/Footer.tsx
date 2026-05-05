@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { useLocale } from 'next-intl';
@@ -35,8 +36,8 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1 space-y-5">
             <Link href={base} className="flex items-center gap-2.5 group w-fit">
-              <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-[#0065CA] to-[#0052a3] flex items-center justify-center">
-                <Wrench className="w-5 h-5 text-white" />
+              <div className="w-10 h-10 flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
+                <Image src="/logo/BELA MBII GARAGE.svg" alt="Bela Mbii Garage Logo" width={40} height={40} className="object-contain" />
               </div>
               <div>
                 <div className="text-white font-bold text-sm leading-none tracking-wide">BELA MBII</div>

@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { useSession, signOut } from 'next-auth/react';
 import { useTranslations } from 'next-intl';
@@ -79,8 +80,8 @@ export default function Header() {
           <div className="flex items-center justify-between h-16 lg:h-18">
             {/* Logo */}
             <Link href={basePath} className="flex items-center gap-2.5 group flex-shrink-0">
-              <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-[#0065CA] to-[#0052a3] flex items-center justify-center shadow-lg group-hover:shadow-[0_0_20px_rgba(0,101,202,0.5)] transition-shadow">
-                <Wrench className="w-5 h-5 text-white" />
+              <div className="w-10 h-10 flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
+                <Image src="/logo/BELA MBII GARAGE.svg" alt="Bela Mbii Garage Logo" width={40} height={40} className="object-contain" />
               </div>
               <div className="hidden sm:block">
                 <div className="text-white font-bold text-sm leading-none tracking-wide">BELA MBII</div>
