@@ -5,10 +5,11 @@ import { auth } from "@/auth";
 
 export async function getUserBookings() {
   const session = await auth();
-  if (!session) throw new Error("Unauthorized");
+  const userId = session?.user?.id;
+  if (!userId) throw new Error("Unauthorized");
 
   return prisma.booking.findMany({
-    where: { userId: session.user.id },
+    where: { userId },
     include: {
       vehicle: true,
       service: true,
@@ -24,9 +25,10 @@ export async function getUserBookings() {
 
 export async function getUserVehicles() {
   const session = await auth();
-  if (!session) throw new Error("Unauthorized");
+  const userId = session?.user?.id;
+  if (!userId) throw new Error("Unauthorized");
 
   return prisma.vehicle.findMany({
-    where: { userId: session.user.id },
+    where: { userId },
   });
 }
